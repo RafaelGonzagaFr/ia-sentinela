@@ -1,0 +1,70 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+#como-funciona, #simulacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#navbarContent {
+    text-transform: uppercase;
+}
+
+#projeto ul li {
+    background-color: #F1F1F1;
+    border-left: 5px solid #dd0c0ca4;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.carousel-item img {
+    height: 500px; /* ou o valor desejado */
+    object-fit:contain; /* ou 'contain', dependendo do efeito que quer */
+}
+
+.legenda {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#video, #simulacao {
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 100px;
+}
+
+#contato {
+    background-color: rgba(0, 0, 0, 0.055);
+    border-radius: 10px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+#contato label {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+#contato input,
+#contato textarea {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#contato input:focus,
+#contato textarea:focus {
+    border-color: #B2E6D1;
+    box-shadow: 0 0 0 0.2rem rgba(178, 230, 209, 0.5);
+    outline: none;
+}
+
+.video-container{
+    width: 100%;
+}

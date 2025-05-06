@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Sentinela</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .text-justify {
+            text-align: justify;
+        }
+    </style>
+
+    <!-- CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header com Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light border-bottom">
+        <img src="img/logo.png" alt="" style="max-height: 50px; max-width: 80px; margin-left: 10px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">IA Sentinela</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projeto">O Projeto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">Vídeo de apresentação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#como-funciona">Como funciona</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#simulacao">Simulação do projeto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção "O Projeto" -->
+    <section id="projeto" class="py-5">
+        <div class="container h-100">
+            <div class="row h-100">
+                
+                <!-- Banner responsivo -->
+                <div class="col-12 mb-4" style="display: flex; flex-direction: center;">
+                    <img src="img/banner.jpeg" alt="Banner do projeto" class="img-fluid w-100 rounded" style="max-height: 460px;">
+                </div>
+    
+                <div class="col-12">
+                    <p class="text-justify" style="font-size: 1.1rem; line-height: 1.6; color: #34495e;">
+                        A violência contra mulheres continua sendo um dos maiores desafios sociais enfrentados por nossa
+                        sociedade. Embora existam diversas políticas públicas e campanhas para combater o problema,
+                        muitos casos ainda permanecem ocultos, sem a devida denúncia ou intervenção.
+                    </p>
+    
+                    <!-- Fatos alarmantes sobre violência doméstica -->
+                    <section
+                        style="background-color: #f7f7f7; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                        <h2
+                            style="text-align: center; color: #2c3e50; font-family: 'Arial', sans-serif; font-size: 1.8rem; margin-bottom: 15px;">
+                            Fatos Alarmantes sobre Violência Doméstica</h2>
+                        <ul style="list-style-type: none; padding: 0;">
+                            <li
+                                style="display: flex; align-items: center; margin-bottom: 15px; font-family: 'Arial', sans-serif; color: #34495e; font-size: 1.2rem;">
+                                <img src="https://img.icons8.com/ios/50/000000/handcuffs.png" alt="violence icon"
+                                    style="width: 24px; height: 24px; margin-right: 10px;" />
+                                1 em cada 3 mulheres no Brasil já sofreu algum tipo de violência física ou psicológica
+                                ao longo da vida <br>(Fonte: ONU Mulheres).
+                            </li>
+                            <li
+                                style="display: flex; align-items: center; margin-bottom: 15px; font-family: 'Arial', sans-serif; color: #34495e; font-size: 1.2rem;">
+                                <img src="https://img.icons8.com/ios/50/000000/phone.png" alt="phone icon"
+                                    style="width: 24px; height: 24px; margin-right: 10px;" />
+                                Apenas 10% das vítimas de violência doméstica formalizam uma denúncia <br>(Fonte: Fórum
+                                Brasileiro de Segurança Pública).
+                            </li>
+                            <li
+                                style="display: flex; align-items: center; margin-bottom: 15px; font-family: 'Arial', sans-serif; color: #34495e; font-size: 1.2rem;">
+                                <img src="https://img.icons8.com/ios/50/000000/home.png" alt="home icon"
+                                    style="width: 24px; height: 24px; margin-right: 10px;" />
+                                68% das agressões contra mulheres acontecem dentro de casa <br>(Fonte: IBGE).
+                            </li>
+                            <li
+                                style="display: flex; align-items: center; margin-bottom: 15px; font-family: 'Arial', sans-serif; color: #34495e; font-size: 1.2rem;">
+                                <img src="https://img.icons8.com/ios/50/000000/boy.png" alt="child icon"
+                                    style="width: 24px; height: 24px; margin-right: 10px;" />
+                                Crianças e adolescentes também são vítimas de violência, com mais de 50% das agressões
+                                ocorrendo em ambientes familiares <br>(Fonte: Ministério da Saúde).
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+    
+                <div class="col-12 d-flex justify-content-center align-items-center" style="padding: 15px; margin-top: 5vh">
+                    <img src="img/violencia.png" alt="Dados estatísticos" class="img-fluid rounded">
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <!-- Nova seção: Vídeo de apresentação -->
+    <section id="video" class="text-center my-5">
+        <h2 class="mb-4">A tecnologia não deve apenas avançar — ela deve proteger quem mais precisa</h2>
+        <div class="ratio ratio-16x9 mx-auto video-container" style="max-width: 800px;">
+            <video  class="w-100 rounded" controls>
+                <source src="./ia-sentinela.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </div>
+    </section>
+    <!-- Seção: Como Funciona o Sentinela Guardiã -->
+    <section id="como-funciona" class="container my-5">
+        <h2 class="text-center mb-5" style="font-size: 2.5rem; line-height: 1.4;">Como Funciona o IA Sentinela?</h2>
+        <div class="row align-items-center justify-content-between">
+
+            <!-- Imagem à esquerda -->
+            <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">
+                <img src="img/fluxograma.png" alt="Fluxograma do Sentinela Guardiã" class="img-fluid rounded">
+            </div>
+
+            <!-- Texto à direita -->
+            <div class="col-lg-6">
+                <p class="mb-4 text-justify" style="font-size: 1.2rem; line-height: 1.6;">O IA Sentinela utiliza a
+                    tecnologia de
+                    inteligência artificial para identificar sinais de abuso
+                    de forma rápida e eficaz. Através de câmeras de segurança, a IA monitora ambientes e, ao detectar
+                    comportamentos suspeitos, aciona uma central de triagem especializada, composta por profissionais
+                    capacitados que cuidam de cada caso com discrição e sensibilidade.</p>
+                <p class="mb-4 text-justify" style="font-size: 1.2rem; line-height: 1.6;">Este processo é realizado de
+                    forma
+                    contínua, garantindo que intervenções sejam feitas antes que
+                    qualquer dano maior aconteça. A IA atua como um "sentinela" que observa em tempo real, garantindo a
+                    segurança de vítimas em potencial e acionando os responsáveis de forma imediata.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="simulacao" class="text-center my-5">
+        <!-- Título acima do carrossel -->
+        <h2 class="mb-4">Simulação do fluxo de funcionamento</h2>
+
+        <div id="carouselSimulacao" class="carousel slide mx-auto" data-bs-ride="carousel" data-bs-wrap="true"
+            style="max-width: 800px;">
+            <div class="carousel-inner rounded">
+
+                <!-- Primeira imagem -->
+                <div class="carousel-item active">
+                    <img src="img/1.jpeg" class="d-block w-100 carousel-img" alt="Simulação 1">
+                    <div class="carousel-caption-below">
+                        <p class="legenda">Câmera de monitoramento em pontos públicos estratégicos (escolas, parques,
+                            praças).</p>
+                    </div>
+                </div>
+
+                <!-- Segunda imagem -->
+                <div class="carousel-item">
+                    <img src="img/2.jpeg" class="d-block w-100 carousel-img" alt="Simulação 2">
+                    <div class="carousel-caption-below">
+                        <p class="legenda">Análise de expressões ou lesões.</p>
+                    </div>
+                </div>
+
+                <!-- Terceira imagem -->
+                <div class="carousel-item">
+                    <img src="img/3.png" class="d-block w-100 carousel-img" alt="Simulação 3">
+                    <div class="carousel-caption-below">
+                        <p class="legenda">Imagens sendo recebidas por agentes internos (psicólogos, assistentes
+                            sociais).</p>
+                    </div>
+                </div>
+
+                <!-- Quarta imagem -->
+                <div class="carousel-item">
+                    <img src="img/4.jpeg" class="d-block w-100 carousel-img" alt="Simulação 4">
+                    <div class="carousel-caption-below">
+                        <p class="legenda">Abordagem discreta e humanizada para averiguar situação.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSimulacao"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSimulacao"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Seção: Entre em Contato -->
+    <section id="contato" class="container my-5">
+        <h2 class="text-center mb-4" style="font-size: 2.5rem;">Entre em Contato</h2>
+        <p class="text-center mb-5" style="font-size: 1.2rem; color: #34495e;">
+            Ficou com alguma dúvida, sugestão ou deseja saber mais sobre o projeto? Envie uma mensagem para nossa
+            equipe.
+        </p>
+
+        <form class="mx-auto" style="max-width: 700px;">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome completo">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com">
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="5"
+                    placeholder="Digite sua mensagem aqui..."></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn px-5 py-2"
+                    style="background-color: #B2E6D1; color: #2c3e50; font-weight: bold;">
+                    Enviar
+                </button>
+            </div>
+        </form>
+    </section>
+
+
+    <!-- Rodapé -->
+    <footer class="bg-light text-center py-4">
+        <div class="container">
+            <p class="mb-2">&copy; 2025 IA Sentinela. Todos os direitos reservados.</p>
+            <p class="mb-0">Desenvolvido por Grupo 2</p>
+        </div>
+    </footer>
+
+
+    <!-- JS do Bootstrap (Popper e Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
